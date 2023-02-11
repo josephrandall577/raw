@@ -1,0 +1,61 @@
+# Increase size of file handles and inode cache
+fs.file-max = 1000000
+
+# Increase the maximum amount of memory available to kernel to allocate for sockets
+net.core.rmem_max = 16777216
+net.core.wmem_max = 16777216
+
+# Increase the read and write buffer for TCP sockets
+net.ipv4.tcp_rmem = 4096 87380 16777216
+net.ipv4.tcp_wmem = 4096 87380 16777216
+
+# Increase the maximum number of orphaned sockets
+net.ipv4.tcp_max_orphans = 262144
+
+# Increase the maximum number of timewait sockets held by system simultaneously
+net.ipv4.tcp_max_tw_buckets = 400000
+
+# Turn on TCP Fast Open
+net.ipv4.tcp_fastopen = 3
+
+# Enable TCP window scaling
+net.ipv4.tcp_window_scaling = 1
+
+# Enable TCP timestamps
+net.ipv4.tcp_timestamps = 1
+
+# Enable TCP SACK (Selective Acknowledgment)
+net.ipv4.tcp_sack = 1
+
+# Enable TCP selective acknowledgments
+net.ipv4.tcp_dsack = 1
+
+# Enable TCP Westwood+ congestion control algorithm
+net.ipv4.tcp_congestion_control=westwood
+
+# Increase the maximum number of segments that can be sent per read call
+net.ipv4.tcp_max_segs_per_opt = 5
+
+# Increase the maximum number of ACKs sent per second
+net.ipv4.tcp_app_win = 31
+
+# Disable TCP Slow Start after idle
+net.ipv4.tcp_slow_start_after_idle = 0
+
+# Enable Low Latency Mode
+net.ipv4.tcp_low_latency = 1
+
+# Increase the maximum number of syn retries
+net.ipv4.tcp_syn_retries = 3
+
+# Increase the maximum number of times a TCP connection can retransmit a packet
+net.ipv4.tcp_retries2 = 15
+
+# Increase the maximum number of times a TCP connection can retransmit a FIN packet
+net.ipv4.tcp_fin_timeout = 15
+
+# Increase the maximum amount of time a TCP connection can remain in FIN-WAIT-2 state
+net.ipv4.tcp_tw_recycle = 1
+
+# Increase the maximum amount of time a TCP connection can remain in TIME-WAIT state
+net.ipv4.tcp_tw_reuse = 1
