@@ -1,0 +1,260 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 🇭🇰 Hong Kong 01, server: 728b7b7.jpvyyr.xyz, port: 44421, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 02, server: 728b7b7.jpvyyr.xyz, port: 46843, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 03, server: 728b7b7.jpvyyr.xyz, port: 44143, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 04, server: 728b7b7.jpvyyr.xyz, port: 43641, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 05, server: 9415832.jpvyyr.xyz, port: 47136, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 06, server: 728b7b7.jpvyyr.xyz, port: 43664, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 07, server: 9415832.jpvyyr.xyz, port: 44112, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 08, server: 9415832.jpvyyr.xyz, port: 42952, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 09, server: 9415832.jpvyyr.xyz, port: 39900, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 10, server: 728b7b7.jpvyyr.xyz, port: 43589, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 11, server: 728b7b7.jpvyyr.xyz, port: 44147, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 12, server: 728b7b7.jpvyyr.xyz, port: 40107, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 13, server: 9415832.jpvyyr.xyz, port: 40199, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 14, server: 9415832.jpvyyr.xyz, port: 40907, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 15, server: 728b7b7.jpvyyr.xyz, port: 40676, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 16, server: 9415832.jpvyyr.xyz, port: 46541, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 17, server: 728b7b7.jpvyyr.xyz, port: 42827, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 18, server: 9415832.jpvyyr.xyz, port: 44888, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 19, server: 728b7b7.jpvyyr.xyz, port: 40798, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇰 Hong Kong 23, server: 728b7b7.jpvyyr.xyz, port: 41832, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 01, server: 8b7fda7.ofplul.lol, port: 47416, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 02, server: 8b7fda7.ofplul.lol, port: 41192, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 03, server: 8b7fda7.ofplul.lol, port: 43457, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 04, server: 8b7fda7.ofplul.lol, port: 43160, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 05, server: 8b7fda7.ofplul.lol, port: 46257, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 06, server: 8b7fda7.ofplul.lol, port: 47078, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 07, server: 8b7fda7.ofplul.lol, port: 40415, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 08, server: 8b7fda7.ofplul.lol, port: 47396, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Seattle 09, server: 8b7fda7.ofplul.lol, port: 40465, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA San Jose 07, server: 8b7fda7.ofplul.lol, port: 41291, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA San Jose 08, server: 8b7fda7.ofplul.lol, port: 41887, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Los Angeles 01, server: 8b7fda7.ofplul.lol, port: 40880, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Los Angeles 02, server: 8b7fda7.ofplul.lol, port: 43923, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Los Angeles 03, server: 8b7fda7.ofplul.lol, port: 46675, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Los Angeles 04, server: 8b7fda7.ofplul.lol, port: 42909, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Los Angeles 05, server: 8b7fda7.ofplul.lol, port: 40381, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Los Angeles 06, server: 8b7fda7.ofplul.lol, port: 44594, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇺🇸 USA Los Angeles 07, server: 8b7fda7.ofplul.lol, port: 40259, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 01, server: 8b7fda7.ofplul.lol, port: 45669, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 02, server: 8b7fda7.ofplul.lol, port: 41175, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 03, server: 8b7fda7.ofplul.lol, port: 44387, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 04, server: 8b7fda7.ofplul.lol, port: 45708, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 05, server: 8b7fda7.ofplul.lol, port: 44744, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 06, server: 8b7fda7.ofplul.lol, port: 45488, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 07, server: 8b7fda7.ofplul.lol, port: 41924, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 08, server: 8b7fda7.ofplul.lol, port: 44419, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 09, server: 8b7fda7.ofplul.lol, port: 45493, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 10, server: 8b7fda7.ofplul.lol, port: 46017, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 11, server: 8b7fda7.ofplul.lol, port: 41064, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 12, server: 8b7fda7.ofplul.lol, port: 41646, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 13, server: 8b7fda7.ofplul.lol, port: 39861, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 14, server: 8b7fda7.ofplul.lol, port: 44790, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 15, server: 8b7fda7.ofplul.lol, port: 40032, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 16, server: 8b7fda7.ofplul.lol, port: 46422, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 17, server: 8b7fda7.ofplul.lol, port: 46205, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 18, server: 8b7fda7.ofplul.lol, port: 42659, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 19, server: 8b7fda7.ofplul.lol, port: 44230, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 20, server: 8b7fda7.ofplul.lol, port: 45256, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 21, server: 8b7fda7.ofplul.lol, port: 43391, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 24, server: 8b7fda7.ofplul.lol, port: 44983, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 25, server: 8b7fda7.ofplul.lol, port: 45610, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 26, server: 8b7fda7.ofplul.lol, port: 46097, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇯🇵 Japan 27, server: 8b7fda7.ofplul.lol, port: 40769, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇳🇱 Netherlands 01, server: 9415832.jpvyyr.xyz, port: 43510, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇷🇺 Russia St. Petersburg, server: 9415832.jpvyyr.xyz, port: 45399, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇷🇺 Russia Moscow 01, server: 9415832.jpvyyr.xyz, port: 42838, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇩🇪 Germany 01, server: 728b7b7.jpvyyr.xyz, port: 41475, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇩🇪 Germany 02, server: 9415832.jpvyyr.xyz, port: 43889, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇫🇷 France 01, server: 728b7b7.jpvyyr.xyz, port: 45513, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇭 Switzerland 01, server: 728b7b7.jpvyyr.xyz, port: 39928, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇭 Switzerland 02, server: 9415832.jpvyyr.xyz, port: 46663, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK London 01, server: 9415832.jpvyyr.xyz, port: 41171, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK London 02, server: 728b7b7.jpvyyr.xyz, port: 46876, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK London 03, server: 728b7b7.jpvyyr.xyz, port: 46761, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK London 04, server: 9415832.jpvyyr.xyz, port: 43267, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK London 05, server: 728b7b7.jpvyyr.xyz, port: 46302, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK Coventry 01, server: 728b7b7.jpvyyr.xyz, port: 46082, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK Coventry 02, server: 9415832.jpvyyr.xyz, port: 40858, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇬🇧 UK Coventry 03, server: 728b7b7.jpvyyr.xyz, port: 40231, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇪 Sweden 01, server: 728b7b7.jpvyyr.xyz, port: 39973, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇧🇬 Bulgaria 01, server: 728b7b7.jpvyyr.xyz, port: 42194, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇦🇹 Austria 01, server: 9415832.jpvyyr.xyz, port: 44494, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇮🇪 Ireland 01, server: 728b7b7.jpvyyr.xyz, port: 40890, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇮🇪 Ireland 02, server: 9415832.jpvyyr.xyz, port: 40209, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇹🇷 Turkey 01, server: 9415832.jpvyyr.xyz, port: 44579, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇭🇺 Hungary 01, server: 9415832.jpvyyr.xyz, port: 41858, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇰🇷 Korea 01, server: 9415832.jpvyyr.xyz, port: 40195, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇰🇷 Korea 02, server: 728b7b7.jpvyyr.xyz, port: 45079, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇰🇷 Korea 04, server: 8b7fda7.ofplul.lol, port: 46989, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 01, server: 9415832.jpvyyr.xyz, port: 40708, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 02, server: 728b7b7.jpvyyr.xyz, port: 42225, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 03, server: 9415832.jpvyyr.xyz, port: 40701, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 04, server: 728b7b7.jpvyyr.xyz, port: 45947, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 05, server: 9415832.jpvyyr.xyz, port: 42140, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 06, server: 728b7b7.jpvyyr.xyz, port: 46279, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 07, server: 9415832.jpvyyr.xyz, port: 46591, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 08, server: 728b7b7.jpvyyr.xyz, port: 44142, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 09, server: 9415832.jpvyyr.xyz, port: 42987, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇳 Taiwan 10, server: 728b7b7.jpvyyr.xyz, port: 40717, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇦 Canada 01, server: 8b7fda7.ofplul.lol, port: 45634, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇦 Canada 02, server: 8b7fda7.ofplul.lol, port: 42494, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇦 Canada 03, server: 8b7fda7.ofplul.lol, port: 47050, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇦🇺 Australia Sydney 02, server: 728b7b7.jpvyyr.xyz, port: 46400, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇦🇪 United Arab Emirates 01, server: 9415832.jpvyyr.xyz, port: 40293, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇮🇳 India 01, server: 728b7b7.jpvyyr.xyz, port: 43010, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇮🇳 India 02, server: 9415832.jpvyyr.xyz, port: 44938, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇮🇩 Indonesia 01, server: 9415832.jpvyyr.xyz, port: 44555, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇧🇷 Brazil 01, server: 8b7fda7.ofplul.lol, port: 46104, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇦🇷 Argentina 01, server: 8b7fda7.ofplul.lol, port: 40969, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇨🇱 Chile 01, server: 8b7fda7.ofplul.lol, port: 40671, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 01, server: 9415832.jpvyyr.xyz, port: 45026, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 02, server: 9415832.jpvyyr.xyz, port: 42033, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 03, server: 9415832.jpvyyr.xyz, port: 43117, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 04, server: 728b7b7.jpvyyr.xyz, port: 45361, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 05, server: 9415832.jpvyyr.xyz, port: 44495, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 06, server: 728b7b7.jpvyyr.xyz, port: 42288, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 07, server: 9415832.jpvyyr.xyz, port: 42372, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 08, server: 728b7b7.jpvyyr.xyz, port: 43858, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 09, server: 9415832.jpvyyr.xyz, port: 45714, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 10, server: 728b7b7.jpvyyr.xyz, port: 41456, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+  - {name: 🇸🇬 Singapore 12, server: 9415832.jpvyyr.xyz, port: 47168, type: ss, cipher: aes-128-gcm, password: 7d71aaacffc944eb, udp: true, tfo: true}
+proxy-groups:
+  - {name: Proxy, type: select, proxies: [Auto, DIRECT, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan, 🇭🇰 Hong Kong 01, 🇭🇰 Hong Kong 02, 🇭🇰 Hong Kong 03, 🇭🇰 Hong Kong 04, 🇭🇰 Hong Kong 05, 🇭🇰 Hong Kong 06, 🇭🇰 Hong Kong 07, 🇭🇰 Hong Kong 08, 🇭🇰 Hong Kong 09, 🇭🇰 Hong Kong 10, 🇭🇰 Hong Kong 11, 🇭🇰 Hong Kong 12, 🇭🇰 Hong Kong 13, 🇭🇰 Hong Kong 14, 🇭🇰 Hong Kong 15, 🇭🇰 Hong Kong 16, 🇭🇰 Hong Kong 17, 🇭🇰 Hong Kong 18, 🇭🇰 Hong Kong 19, 🇭🇰 Hong Kong 23, 🇺🇸 USA Seattle 01, 🇺🇸 USA Seattle 02, 🇺🇸 USA Seattle 03, 🇺🇸 USA Seattle 04, 🇺🇸 USA Seattle 05, 🇺🇸 USA Seattle 06, 🇺🇸 USA Seattle 07, 🇺🇸 USA Seattle 08, 🇺🇸 USA Seattle 09, 🇺🇸 USA San Jose 07, 🇺🇸 USA San Jose 08, 🇺🇸 USA Los Angeles 01, 🇺🇸 USA Los Angeles 02, 🇺🇸 USA Los Angeles 03, 🇺🇸 USA Los Angeles 04, 🇺🇸 USA Los Angeles 05, 🇺🇸 USA Los Angeles 06, 🇺🇸 USA Los Angeles 07, 🇯🇵 Japan 01, 🇯🇵 Japan 02, 🇯🇵 Japan 03, 🇯🇵 Japan 04, 🇯🇵 Japan 05, 🇯🇵 Japan 06, 🇯🇵 Japan 07, 🇯🇵 Japan 08, 🇯🇵 Japan 09, 🇯🇵 Japan 10, 🇯🇵 Japan 11, 🇯🇵 Japan 12, 🇯🇵 Japan 13, 🇯🇵 Japan 14, 🇯🇵 Japan 15, 🇯🇵 Japan 16, 🇯🇵 Japan 17, 🇯🇵 Japan 18, 🇯🇵 Japan 19, 🇯🇵 Japan 20, 🇯🇵 Japan 21, 🇯🇵 Japan 24, 🇯🇵 Japan 25, 🇯🇵 Japan 26, 🇯🇵 Japan 27, 🇳🇱 Netherlands 01, 🇷🇺 Russia St. Petersburg, 🇷🇺 Russia Moscow 01, 🇩🇪 Germany 01, 🇩🇪 Germany 02, 🇫🇷 France 01, 🇨🇭 Switzerland 01, 🇨🇭 Switzerland 02, 🇬🇧 UK London 01, 🇬🇧 UK London 02, 🇬🇧 UK London 03, 🇬🇧 UK London 04, 🇬🇧 UK London 05, 🇬🇧 UK Coventry 01, 🇬🇧 UK Coventry 02, 🇬🇧 UK Coventry 03, 🇸🇪 Sweden 01, 🇧🇬 Bulgaria 01, 🇦🇹 Austria 01, 🇮🇪 Ireland 01, 🇮🇪 Ireland 02, 🇹🇷 Turkey 01, 🇭🇺 Hungary 01, 🇰🇷 Korea 01, 🇰🇷 Korea 02, 🇰🇷 Korea 04, 🇨🇳 Taiwan 01, 🇨🇳 Taiwan 02, 🇨🇳 Taiwan 03, 🇨🇳 Taiwan 04, 🇨🇳 Taiwan 05, 🇨🇳 Taiwan 06, 🇨🇳 Taiwan 07, 🇨🇳 Taiwan 08, 🇨🇳 Taiwan 09, 🇨🇳 Taiwan 10, 🇨🇦 Canada 01, 🇨🇦 Canada 02, 🇨🇦 Canada 03, 🇦🇺 Australia Sydney 02, 🇦🇪 United Arab Emirates 01, 🇮🇳 India 01, 🇮🇳 India 02, 🇮🇩 Indonesia 01, 🇧🇷 Brazil 01, 🇦🇷 Argentina 01, 🇨🇱 Chile 01, 🇸🇬 Singapore 01, 🇸🇬 Singapore 02, 🇸🇬 Singapore 03, 🇸🇬 Singapore 04, 🇸🇬 Singapore 05, 🇸🇬 Singapore 06, 🇸🇬 Singapore 07, 🇸🇬 Singapore 08, 🇸🇬 Singapore 09, 🇸🇬 Singapore 10, 🇸🇬 Singapore 12]}
+  - {name: Auto, type: fallback, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [🇭🇰 Hong Kong 01, 🇭🇰 Hong Kong 02, 🇭🇰 Hong Kong 03, 🇭🇰 Hong Kong 04, 🇭🇰 Hong Kong 05, 🇭🇰 Hong Kong 06, 🇭🇰 Hong Kong 07, 🇭🇰 Hong Kong 08, 🇭🇰 Hong Kong 09, 🇭🇰 Hong Kong 10, 🇭🇰 Hong Kong 11, 🇭🇰 Hong Kong 12, 🇭🇰 Hong Kong 13, 🇭🇰 Hong Kong 14, 🇭🇰 Hong Kong 15, 🇭🇰 Hong Kong 16, 🇭🇰 Hong Kong 17, 🇭🇰 Hong Kong 18, 🇭🇰 Hong Kong 19, 🇭🇰 Hong Kong 23, 🇺🇸 USA Seattle 01, 🇺🇸 USA Seattle 02, 🇺🇸 USA Seattle 03, 🇺🇸 USA Seattle 04, 🇺🇸 USA Seattle 05, 🇺🇸 USA Seattle 06, 🇺🇸 USA Seattle 07, 🇺🇸 USA Seattle 08, 🇺🇸 USA Seattle 09, 🇺🇸 USA San Jose 07, 🇺🇸 USA San Jose 08, 🇺🇸 USA Los Angeles 01, 🇺🇸 USA Los Angeles 02, 🇺🇸 USA Los Angeles 03, 🇺🇸 USA Los Angeles 04, 🇺🇸 USA Los Angeles 05, 🇺🇸 USA Los Angeles 06, 🇺🇸 USA Los Angeles 07, 🇯🇵 Japan 01, 🇯🇵 Japan 02, 🇯🇵 Japan 03, 🇯🇵 Japan 04, 🇯🇵 Japan 05, 🇯🇵 Japan 06, 🇯🇵 Japan 07, 🇯🇵 Japan 08, 🇯🇵 Japan 09, 🇯🇵 Japan 10, 🇯🇵 Japan 11, 🇯🇵 Japan 12, 🇯🇵 Japan 13, 🇯🇵 Japan 14, 🇯🇵 Japan 15, 🇯🇵 Japan 16, 🇯🇵 Japan 17, 🇯🇵 Japan 18, 🇯🇵 Japan 19, 🇯🇵 Japan 20, 🇯🇵 Japan 21, 🇯🇵 Japan 24, 🇯🇵 Japan 25, 🇯🇵 Japan 26, 🇯🇵 Japan 27, 🇳🇱 Netherlands 01, 🇷🇺 Russia St. Petersburg, 🇷🇺 Russia Moscow 01, 🇩🇪 Germany 01, 🇩🇪 Germany 02, 🇫🇷 France 01, 🇨🇭 Switzerland 01, 🇨🇭 Switzerland 02, 🇬🇧 UK London 01, 🇬🇧 UK London 02, 🇬🇧 UK London 03, 🇬🇧 UK London 04, 🇬🇧 UK London 05, 🇬🇧 UK Coventry 01, 🇬🇧 UK Coventry 02, 🇬🇧 UK Coventry 03, 🇸🇪 Sweden 01, 🇧🇬 Bulgaria 01, 🇦🇹 Austria 01, 🇮🇪 Ireland 01, 🇮🇪 Ireland 02, 🇹🇷 Turkey 01, 🇭🇺 Hungary 01, 🇰🇷 Korea 01, 🇰🇷 Korea 02, 🇰🇷 Korea 04, 🇨🇳 Taiwan 01, 🇨🇳 Taiwan 02, 🇨🇳 Taiwan 03, 🇨🇳 Taiwan 04, 🇨🇳 Taiwan 05, 🇨🇳 Taiwan 06, 🇨🇳 Taiwan 07, 🇨🇳 Taiwan 08, 🇨🇳 Taiwan 09, 🇨🇳 Taiwan 10, 🇨🇦 Canada 01, 🇨🇦 Canada 02, 🇨🇦 Canada 03, 🇦🇺 Australia Sydney 02, 🇦🇪 United Arab Emirates 01, 🇮🇳 India 01, 🇮🇳 India 02, 🇮🇩 Indonesia 01, 🇧🇷 Brazil 01, 🇦🇷 Argentina 01, 🇨🇱 Chile 01, 🇸🇬 Singapore 01, 🇸🇬 Singapore 02, 🇸🇬 Singapore 03, 🇸🇬 Singapore 04, 🇸🇬 Singapore 05, 🇸🇬 Singapore 06, 🇸🇬 Singapore 07, 🇸🇬 Singapore 08, 🇸🇬 Singapore 09, 🇸🇬 Singapore 10, 🇸🇬 Singapore 12]}
+  - {name: Apple, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: BiliBili, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇨🇳 Taiwan]}
+  - {name: Netflix, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Disney, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: YouTube, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: TikTok, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: GlobalMedia, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: OpenAI, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Google, type: select, proxies: [Proxy, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Microsoft, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Steam, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: PayPal, type: select, proxies: [Proxy, DIRECT, Auto, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Telegram, type: select, proxies: [Proxy, 🇭🇰 Hong Kong, 🇸🇬 Singapore, 🇯🇵 Japan, 🇺🇸 United States, 🇨🇳 Taiwan]}
+  - {name: Lan, type: select, proxies: [Proxy, Auto, DIRECT]}
+  - {name: ChinaMax, type: select, proxies: [Proxy, Auto, DIRECT]}
+  - {name: Final, type: select, proxies: [Proxy, Auto, DIRECT]}
+  - {name: 🇭🇰 Hong Kong, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [🇭🇰 Hong Kong 01, 🇭🇰 Hong Kong 02, 🇭🇰 Hong Kong 03, 🇭🇰 Hong Kong 04, 🇭🇰 Hong Kong 05, 🇭🇰 Hong Kong 06, 🇭🇰 Hong Kong 07, 🇭🇰 Hong Kong 08, 🇭🇰 Hong Kong 09, 🇭🇰 Hong Kong 10, 🇭🇰 Hong Kong 11, 🇭🇰 Hong Kong 12, 🇭🇰 Hong Kong 13, 🇭🇰 Hong Kong 14, 🇭🇰 Hong Kong 15, 🇭🇰 Hong Kong 16, 🇭🇰 Hong Kong 17, 🇭🇰 Hong Kong 18, 🇭🇰 Hong Kong 19, 🇭🇰 Hong Kong 23]}
+  - {name: 🇸🇬 Singapore, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [🇸🇬 Singapore 01, 🇸🇬 Singapore 02, 🇸🇬 Singapore 03, 🇸🇬 Singapore 04, 🇸🇬 Singapore 05, 🇸🇬 Singapore 06, 🇸🇬 Singapore 07, 🇸🇬 Singapore 08, 🇸🇬 Singapore 09, 🇸🇬 Singapore 10, 🇸🇬 Singapore 12]}
+  - {name: 🇯🇵 Japan, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [🇯🇵 Japan 01, 🇯🇵 Japan 02, 🇯🇵 Japan 03, 🇯🇵 Japan 04, 🇯🇵 Japan 05, 🇯🇵 Japan 06, 🇯🇵 Japan 07, 🇯🇵 Japan 08, 🇯🇵 Japan 09, 🇯🇵 Japan 10, 🇯🇵 Japan 11, 🇯🇵 Japan 12, 🇯🇵 Japan 13, 🇯🇵 Japan 14, 🇯🇵 Japan 15, 🇯🇵 Japan 16, 🇯🇵 Japan 17, 🇯🇵 Japan 18, 🇯🇵 Japan 19, 🇯🇵 Japan 20, 🇯🇵 Japan 21, 🇯🇵 Japan 24, 🇯🇵 Japan 25, 🇯🇵 Japan 26, 🇯🇵 Japan 27]}
+  - {name: 🇺🇸 United States, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [🇺🇸 USA Seattle 01, 🇺🇸 USA Seattle 02, 🇺🇸 USA Seattle 03, 🇺🇸 USA Seattle 04, 🇺🇸 USA Seattle 05, 🇺🇸 USA Seattle 06, 🇺🇸 USA Seattle 07, 🇺🇸 USA Seattle 08, 🇺🇸 USA Seattle 09, 🇺🇸 USA San Jose 07, 🇺🇸 USA San Jose 08, 🇺🇸 USA Los Angeles 01, 🇺🇸 USA Los Angeles 02, 🇺🇸 USA Los Angeles 03, 🇺🇸 USA Los Angeles 04, 🇺🇸 USA Los Angeles 05, 🇺🇸 USA Los Angeles 06, 🇺🇸 USA Los Angeles 07, 🇦🇪 United Arab Emirates 01]}
+  - {name: 🇨🇳 Taiwan, type: url-test, url: http://connectivitycheck.gstatic.com/generate_204, interval: 300, proxies: [🇨🇳 Taiwan 01, 🇨🇳 Taiwan 02, 🇨🇳 Taiwan 03, 🇨🇳 Taiwan 04, 🇨🇳 Taiwan 05, 🇨🇳 Taiwan 06, 🇨🇳 Taiwan 07, 🇨🇳 Taiwan 08, 🇨🇳 Taiwan 09, 🇨🇳 Taiwan 10]}
+rules:
+  - RULE-SET,Apple_Classical_No_Resolve,Apple
+  - RULE-SET,BiliBili_No_Resolve,BiliBili
+  - RULE-SET,Netflix_No_Resolve,Netflix
+  - RULE-SET,Disney_No_Resolve,Disney
+  - RULE-SET,YouTube_No_Resolve,YouTube
+  - RULE-SET,TikTok_No_Resolve,TikTok
+  - RULE-SET,GlobalMedia_Classical_No_Resolve,GlobalMedia
+  - RULE-SET,OpenAI_No_Resolve,OpenAI
+  - RULE-SET,Google_No_Resolve,Google
+  - RULE-SET,Microsoft_No_Resolve,Microsoft
+  - RULE-SET,PayPal_No_Resolve,PayPal
+  - RULE-SET,Telegram_No_Resolve,Telegram
+  - RULE-SET,Steam_No_Resolve,Steam
+  - RULE-SET,Lan_No_Resolve,Lan
+  - RULE-SET,ChinaMax_Classical_No_IPv6_No_Resolve,ChinaMax
+  - MATCH,Final
+rule-providers:
+  Apple_Classical_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
+    path: ./providers/1382714063091383325.yaml
+    interval: 86400
+  BiliBili_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml
+    path: ./providers/15427680467615148193.yaml
+    interval: 86400
+  Netflix_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_No_Resolve.yaml
+    path: ./providers/3095517576045242515.yaml
+    interval: 86400
+  Disney_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney_No_Resolve.yaml
+    path: ./providers/16730261648837664781.yaml
+    interval: 86400
+  YouTube_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
+    path: ./providers/7793569929749877519.yaml
+    interval: 86400
+  TikTok_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml
+    path: ./providers/11554982043438683725.yaml
+    interval: 86400
+  GlobalMedia_Classical_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml
+    path: ./providers/8586276791519100849.yaml
+    interval: 86400
+  OpenAI_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+    path: ./providers/10003867553944401341.yaml
+    interval: 86400
+  Google_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google_No_Resolve.yaml
+    path: ./providers/6866317176011189215.yaml
+    interval: 86400
+  Microsoft_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+    path: ./providers/5985473173379392979.yaml
+    interval: 86400
+  PayPal_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal_No_Resolve.yaml
+    path: ./providers/15088493651586754751.yaml
+    interval: 86400
+  Telegram_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml
+    path: ./providers/1666671147171134695.yaml
+    interval: 86400
+  Steam_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam_No_Resolve.yaml
+    path: ./providers/185371531745484315.yaml
+    interval: 86400
+  Lan_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan_No_Resolve.yaml
+    path: ./providers/1243614840536111263.yaml
+    interval: 86400
+  ChinaMax_Classical_No_IPv6_No_Resolve:
+    type: http
+    behavior: classical
+    url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6_No_Resolve.yaml
+    path: ./providers/15219913603349139099.yaml
+    interval: 86400
