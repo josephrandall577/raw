@@ -6,7 +6,7 @@ ruleset=🎯 全球直连,[]GEOIP,private,no-resolve
 ;强制直连规则
 ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct_Classical.yaml,28800
 ;强制代理规则
-ruleset=🚀 手动选择,clash-classic:https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Proxy_Classical.yaml,28800
+ruleset=🚀 节点选择,clash-classic:https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Proxy_Classical.yaml,28800
 ;谷歌在国内可用的域名直连
 ruleset=🎯 全球直连,[]GEOSITE,google-cn
 ;国内游戏域名直连
